@@ -1,0 +1,135 @@
+$main-color:#F28B82;
+$secondary-color:#787B7D;
+$border-color:#B6B8B9;
+$nav-color:#24252A;
+$peach-color:#F94C2E;
+$color-0:#A4E3DA;
+$color-1:#FDA88B;
+$color-2:#FB9DD6;
+$color-3:#8786FB;
+$color-4:#FA8C8D;
+$color-5:#8DDCFB;
+$color-6:#BDA2F3;
+$color-7:#8DD6CB;
+$color-8:#A1D799;
+$color-9:#9EBEF1;
+$footer-color:#EDEDED;
+@font-face {
+    font-family:"league spartan",sans-serif ;
+    src: url(../public/webFonts/LeagueSpartan-VariableFont_wght.ttf);
+}
+*{
+    font-family:"league spartan",sans-serif ;
+}
+img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.bg-main{
+    background-color: $main-color;
+}
+.main-color{
+    color:$main-color;
+}
+.links:hover{
+    color:$main-color;
+}
+.loader-bg{
+    background-color: rgba(0,0,0,0.1);
+}
+.logo-cart{
+    color:$main-color;
+}
+
+.active{
+    color:$main-color;
+}
+.btn{
+    background-color: $main-color;
+    color:white;
+    padding: {
+        top:8px;
+        bottom:8px;
+        left:12px;
+        right:12px;
+    }
+    
+}
+button[disabled]{
+ color:$secondary-color;
+ border:solid 1px $border-color;
+ background-color: transparent;
+}
+.slider-button{
+    margin: 5px;
+    padding: 4px 8px;
+    background: #D6D6D6;
+    border-radius: 2px;
+}
+.slider-button:hover{
+    background: #869791; 
+}
+.category-slider{
+    border-radius: 50%;
+}
+.product:hover{
+    box-shadow: 0px 0px 10px 1px #EEEEEE;
+    transition: 0.5s all;
+}
+
+.cartBtn{
+    opacity: 0;
+    transition: 0.5s all;
+    transform: translateY(50%);
+}
+.product:hover .cartBtn{
+  opacity: 1;
+  transform: translateY(-30%);
+}
+.peach-color{
+    color:$peach-color;
+}
+.whish-btn{
+    background-color: $peach-color;
+}
+.whish-border{
+    border:solid 2px #F3F3F3;
+}
+.categ-1{
+    background-color: $color-1;
+}
+
+
+.Home-img{
+    min-height: 100vh;
+    background-image: url(./assets/main.jpg);
+    background-size: cover;
+    padding:10px;
+}
+.Home-img h1 ,
+.vedio-caption h1 {
+    font-size:53.8272px;
+    text-transform: capitalize;
+
+}
+.sale {
+    min-height: 70vh;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.home-vedio {
+    position: absolute;
+    inset: 0; 
+}
+
+.home-vedio video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.footer{
+    background-color: $footer-color;
+}
