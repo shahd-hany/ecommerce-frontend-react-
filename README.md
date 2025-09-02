@@ -4,8 +4,6 @@
 ## Overview
 React Store is a fully functional, modern e-commerce web application built with React. It features authentication, product catalog browsing, wishlist management, shopping cart, and secure checkout – all powered by a real backend API (`https://ecommerce.routemisr.com/api/v1/`).  
 
-This README is designed as a professional and reusable documentation template tailored specifically to your project.
-
 ---
 
 ## Features
